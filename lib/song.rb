@@ -26,12 +26,12 @@ class Song
   end
 
   def self.genre_count 
+    puts {@genre => @genre.count}
+  end
 
-  end 
+  def self.artist_count
 
-  def self.artist_count 
-
-  end 
+  end
 
 
 end
