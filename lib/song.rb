@@ -4,6 +4,7 @@ class Song
   @@genres = []
   @@artists = []
 
+
   def initialize(name,artist,genre)
     @name = name
     @artist = artist
@@ -26,7 +27,8 @@ class Song
   end
 
   def self.genre_count
-    puts "{@@genre => @@genre.count}"
+    @@genres.uniq!.map do |genre|
+      genre
   end
 
   def self.artist_count
