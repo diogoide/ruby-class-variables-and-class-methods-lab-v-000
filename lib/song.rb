@@ -25,8 +25,8 @@ class Song
     @@genres.uniq!
   end
 
-  def self.genre_count 
-    puts {@genre => @genre.count}
+  def self.genre_count
+    puts "{@genre => @genre.count}"
   end
 
   def self.artist_count
