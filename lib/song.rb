@@ -28,7 +28,7 @@ class Song
 
   def self.genre_count
     @@genres.map do |genre|
-      puts {"genre.uniq!" => "genres.count"}
+      puts {genre.uniq! => genres.count}
     end
   end
 
