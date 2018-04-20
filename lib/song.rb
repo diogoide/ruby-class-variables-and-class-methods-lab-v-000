@@ -38,6 +38,7 @@ class Song
     @@artists_count.map do |artist|
       @@artist_count[artist] = @@artist.count(artist)
     end
+    @@artist_count
   end
 
 
